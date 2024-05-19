@@ -1,0 +1,39 @@
+/* Glassmorphism.css */
+
+/* Initial styles for the glassmorphism container */
+.glassmorphism-container {
+  opacity: 1; /* Start with opacity 0 to make it invisible */
+  transition: opacity 0.3s ease, background-color 0.3s ease, backdrop-filter 0.3s ease, padding 0.3s ease;
+}
+
+.glassmorphism-container.shown {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  background-color: rgba(245, 238, 200, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  margin-top: 20px;
+}
+
+/* Styles when the glassmorphism is fully visible */
+.glassmorphism-container.visible {
+  opacity: 1; /* Set opacity to 1 to make it fully visible */
+  transition: opacity 0.3s ease;
+  background-color: rgba(245, 238, 200, 0.7); 
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+/* Faded effect when the class is removed */
+.glassmorphism-fade-out {
+  opacity: 0; /* Set opacity to 0 to make it invisible */
+  padding: 0; /* Reduce padding when fading out */
+}
+
+/* Add more styles as needed */

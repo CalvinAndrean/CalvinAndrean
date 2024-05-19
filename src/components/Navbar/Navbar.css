@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+.nav-link {
+  display: inline-flex; /* Use Flexbox for vertical centering */
+  align-items: center; /* Vertically center the content */
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #7b7f61;
+  transition: transform 0.3s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1); /* Increase the scale on hover for zoom-in effect */
+  color: #393b2e; /* Change text color on hover */
+}
