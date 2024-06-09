@@ -42,31 +42,31 @@ export default function Home() {
   return (
     <section id='home' className={`${showNavbar ? 'mt-[79px]' : ''}`}>
       <div className="flex flex-col lg:flex-row">
-       <div className="lg:w-1/2 lg:hidden flex break-inside-avoid justify-center items-center">
+       <div className="lg:w-1/2 lg:hidden mt-[-100px] flex break-inside-avoid justify-center items-center">
           <motion.img
             initial={{ opacity: 0, y: 50 }}
             animate={controlsImage}
             transition={{ type: 'spring', stiffness: 260, damping: 100 }}
-            src="https://robohash.org/156"
+            src={"/assets/images/calvin.png"}
             className="mt-[100px]"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
           />
         </div>
         <div className={`lg:w-1/2 flex justify-center text-center items-center`}>
           <motion.h1
-            className={`flex font-bold text-[#393b2e] text-4xl lg:text-8xl items-center justify-center h-full text-center lg:text-right px-10 py-4 lg:px-0 lg:ml-[100px]`}
+            className={`flex font-bold text-[#393b2e] text-4xl mb-20 lg:text-8xl items-center justify-center h-full text-center lg:text-right px-10 py-4 lg:px-0 lg:ml-[100px]`}
             // style={{ height: `${height.current}px` }}
           >
             {typedText}
           </motion.h1>
         </div>
-        <div className="flex max-lg:hidden justify-center items-center">
+        <div className="flex max-lg:hidden ml-20 justify-center items-center">
           <motion.img
             initial={{ opacity: 0, y: 50 }}
             animate={controlsImage}
             transition={{ type: 'spring', stiffness: 260, damping: 100 }}
-            src="https://robohash.org/156"
+            src="/assets/images/calvin.png"
             className="ml-[60px]"
             width={600}
             height={600}

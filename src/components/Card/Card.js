@@ -14,7 +14,7 @@ function Card({
         <h1 className='text-[#393b2e] font-bold text-2xl mt-2'>{title ? title : 'Title'}</h1>
         <p className='text-[#393b2e]'>{description ? description : 'Lorem ipsum'}</p>
         <div className='flex justify-between items-center mt-6'>
-          <div className='flex flex-wrap gap-2 w-1/2'>
+          <div className='flex flex-wrap gap-2 w-3/4'>
             {tech_stack.map((tech, index) => (
               <span key={index} className='bg-[#393b2e] text-white py-1 px-2 rounded-md'>{tech}</span>
             ))}
