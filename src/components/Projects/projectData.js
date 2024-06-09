@@ -28,7 +28,7 @@ const projectData = [
     title: 'GoFit',
     description: 'GoFIt is a fitness app that lets users book and manage fitness classes, view daily schedules, and access membership information. It provides an organized interface for handling fitness activities, class deposits, and personal profiles.',
     image: './assets/images/gofit.png',
-    tech_stack: ['Kotlin', 'Android', 'Java', 'MySQL', 'Laravel'],
+    tech_stack: ['Flutter', 'Android', 'Java', 'MySQL', 'Laravel'],
     link: 'null'
   },
 ];
