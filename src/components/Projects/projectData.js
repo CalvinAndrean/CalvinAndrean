@@ -49,7 +49,7 @@ const projectData = [
       "A blockchain-based platform designed to enable secure, verified, and efficient sharing of medical data among hospitals, clinics, community health centers, government institutions, and patients; ensuring transparency, data integrity, and improved collaboration across the healthcare ecosystem.",
     image: "./assets/images/cover-satu-sehat.png",
     tech_stack: ["ReactJS", "NextJS", "TailwindCSS", "Multichain"],
-    link: "https://82.112.230.186:3000",
+    link: "http://82.112.230.186:3000",
   },
   {
     id: 6,
