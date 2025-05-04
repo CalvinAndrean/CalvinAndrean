@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Calvin Andrean Suhedy, people usually call me 'Calvin' or 'Vin'
-- 👀 I’m interested in Artificial Intelligence and Data Science
-- 🌱 I’m currently on Internship at PT. Global Urban Esential (member of Dexa Group)
+- 👀 I’m interested in Machine Learning and Software Engineering
+- 🌱 I’m currently work at PT. Mostrans Global Digilog (member of Kalbe Group)
 - 💞️ I’m looking for people who wants to discuss more about Computer Science topic
 - 📫 How to reach me --> @clvnand (Instagram)
 
